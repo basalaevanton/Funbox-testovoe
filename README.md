@@ -1,5 +1,13 @@
 # Тестовое задание от FUNBOX
+## Task
 
+[Task](materials/qt-js.pdf)
+
+# Level 1: Theoretical part
+
+[Answer the question](materials/answer.md)
+
+# Level 2: Application
 ## Редактор маршрутов
 
 ### Стек
@@ -14,17 +22,13 @@
 - eslint, stylelint, prettier
 - husky
 
-### Для запуска локально
+### Инструкции для запуска локально
 
-- gh repo clone данного репозитория
-- необходимо создать файл в корне - .env.local, в нём прописать REACT_APP_YANDEX_KEY='apiKey'
-- apiKey получаем в кабинете разработчика Яндекс - https://developer.tech.yandex.ru/services/
-- (Более подробная информация по ссылке - https://yandex.ru/dev/maps/jsapi/doc/2.1/quick-start/index.html#get-api-key)
-- запускаем проект `npm start` в режиме разработки.
+1. Скачать репозиторий `gh repo clone basalaevanton/Funbox-testovoe`
+2. Cоздать файл в корне - `.env.local`, в нём прописать `REACT_APP_YANDEX_KEY='apiKey'`
+3. apiKey получаем в кабинете разработчика Яндекс - [ссылка](https://developer.tech.yandex.ru/services/)
 
-### `git commit -m "..."`
+- (Более подробная информация по API Яндекс.Карт по [ссылке](https://yandex.ru/dev/maps/jsapi/doc/2.1/quick-start/index.html#get-api-key)
 
-npm run build
-npm run stylelint
-npm run git add
-npm run prettier
+4. Запустите команду `npm install` для установки зависимостей.
+5. запускаем проект `npm start` в режиме разработки.

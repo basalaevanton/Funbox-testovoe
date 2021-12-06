@@ -1,4 +1,7 @@
 # Тестовое задание от FUNBOX
+
+[Ссылка на приложение](https://funbox-map-route.vercel.app/)
+
 ## Task
 
 [Task](materials/qt-js.pdf)

@@ -1,0 +1,22 @@
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: 15px;
+	padding: 10px;
+
+	border: 1px solid var(--dark50);
+	border-radius: 5px;
+
+	&:hover {
+		cursor: grab;
+		transition: all 0.5s;
+
+		background: var(--hoverCard);
+	}
+}
+
+.cardChildren {
+	padding-right: 10px;
+}

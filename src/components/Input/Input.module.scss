@@ -1,0 +1,42 @@
+.inputWrapper {
+	position: relative;
+
+	display: initial;
+}
+
+.input {
+	width: 100%;
+
+	padding: 13px 15px;
+
+	padding-right: 30px;
+
+	transition: all 0.5s;
+
+	color: var(--dark75);
+
+	border: 1px solid;
+	border-color: var(--dark25);
+	border-radius: 4px;
+	outline-width: 1px;
+	outline-color: var(--dark50);
+	background: var(--white);
+
+	font-family: var(--font-family);
+
+	font-size: 18px;
+	line-height: 24px;
+
+	&::placeholder {
+		padding: 13px auto 13px 15px;
+
+		color: var(--dark25);
+
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	&:hover {
+		border-color: var(--dark75);
+	}
+}

@@ -1,0 +1,34 @@
+.wrapper {
+	display: grid;
+
+	min-height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+		"header"
+		"body"
+		"footer";
+}
+
+.header {
+	padding: 0 15px;
+	grid-area: header;
+}
+
+.body {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+
+	width: 100%;
+	padding: 0 15px;
+	grid-area: body;
+}
+
+.footer {
+	padding: 0 15px;
+	grid-area: footer;
+}

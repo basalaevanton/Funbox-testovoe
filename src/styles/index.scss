@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+
+	list-style: none;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	color: black;
+	background: white;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+ul {
+	padding-inline-start: 0;
+
+	margin: 0;
+}
+
+:root {
+	--white: #FFF;
+	--dark25: rgba(31, 32, 65, 0.25);
+	--dark50: rgba(31, 32, 65, 0.5);
+	--dark75: rgba(31, 32, 65, 0.75);
+	--hoverCard: #A0CDD3;
+}
